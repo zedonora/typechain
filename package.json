@@ -1,0 +1,19 @@
+{
+  "name": "Typechain",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/zedonora/typechain",
+  "author": "kyg",
+  "license": "MIT",
+  "scripts": {
+    "start": "tsc-watch --onSuccess \" node dist/index.js\"",
+    "prestart": "tsc"
+  },
+  "devDependencies": {
+    "tsc-watch": "^4.0.0"
+  },
+  "dependencies": {
+    "crpyto-js": "^0.0.1-security",
+    "ts-node": "^8.5.4"
+  }
+}
