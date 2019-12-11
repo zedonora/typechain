@@ -69,4 +69,5 @@ createNewBlock("second block");
 createNewBlock("third block");
 createNewBlock("fourth block");
 console.log(blockChain);
+console.log(getBlockchain());
 export {};
